@@ -1,23 +1,40 @@
-# Port Scanner (Beginner Cybersecurity Project)
+# Port Scanner
 
-A basic Python script that scans TCP ports on a target host to identify open ports.
+A beginner-friendly Python script that scans a specified IP address for open TCP ports within a given range.
 
 ## Features
-- Accepts custom IP and port range
-- Uses Python sockets
-- Reports open ports only
+
+- Scans a range of ports on a target IP address.
+- Identifies open ports and reports them.
+- Written in Python for simplicity and educational purposes.
 
 ## Usage
 
-```bash
-python3 port_scanner.py
+1. Clone the repository:
 
-Example Output
+   ```bash
+   git clone https://github.com/breconm/port-scanner.git
+   cd port-scanner
+   
+2. Run the script
+   ```bash
+   python3 portscanner.py
 
+3. Follow the prompts to enter:
+   Target IP address (e.g scanme.nmap.org )
+
+   EXAMPLE OUTPUT
 Scanning scanme.nmap.org from ports 20 to 100
 [+] Port 22 is open
 [+] Port 80 is open
 
+Requirements
+Python 3.x
 
-Brecon Ndamamjoh
+socket library (included in Python standard library)
 
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Author
+Brecon
